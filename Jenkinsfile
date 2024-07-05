@@ -8,7 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    bat "%GRADLE_HOME%\\bin\\gradle.bat" // Usa % para variables de entorno en Windows
+                    bat "%GRADLE_HOME%\\gradle.bat" // Usa % para variables de entorno en Windows
                 }
             }
         }
